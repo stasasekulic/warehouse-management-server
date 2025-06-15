@@ -93,7 +93,7 @@ public class ProductController {
                 return ResponseEntity.notFound().build();
             }
 
-            byte[] qrCode = qrCodeService.generateQRCode(id);
+            byte[] qrCode = qrCodeService.generateQRCode(product.get().getId(), product.get().getName(), product.get().getDescription());
 
             HttpHeaders headers = new HttpHeaders();
             headers.setContentType(MediaType.IMAGE_PNG);
