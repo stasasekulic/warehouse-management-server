@@ -1,4 +1,4 @@
-package QRCode;
+package warehouse_management.QRCode;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;

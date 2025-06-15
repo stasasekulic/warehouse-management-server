@@ -1,10 +1,10 @@
-package Audit;
+package warehouse_management.Audit;
 
-import ProductAuditLog.ProductAuditLog;
-import ProductAuditLog.ProductAuditLogRepository;
+import warehouse_management.ProductAuditLog.ProductAuditLog;
+import warehouse_management.ProductAuditLog.ProductAuditLogRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import Product.Product;
+import warehouse_management.Product.Product;
 
 import java.lang.reflect.Field;
 import java.util.List;

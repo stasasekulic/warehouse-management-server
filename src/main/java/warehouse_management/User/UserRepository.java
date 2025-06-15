@@ -1,4 +1,4 @@
-package User;
+package warehouse_management.User;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

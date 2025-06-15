@@ -1,4 +1,4 @@
-package User;
+package warehouse_management.User;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;

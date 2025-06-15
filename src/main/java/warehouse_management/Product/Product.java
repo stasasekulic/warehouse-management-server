@@ -1,4 +1,4 @@
-package Product;
+package warehouse_management.Product;
 
 import jakarta.persistence.*;
 import java.math.BigDecimal;

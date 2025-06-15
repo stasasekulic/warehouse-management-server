@@ -1,6 +1,6 @@
-package Product;
+package warehouse_management.Product;
 
-import Audit.AuditService;
+import warehouse_management.Audit.AuditService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

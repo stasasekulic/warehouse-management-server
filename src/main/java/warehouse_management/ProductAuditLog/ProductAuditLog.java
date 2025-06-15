@@ -1,4 +1,4 @@
-package ProductAuditLog;
+package warehouse_management.ProductAuditLog;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;

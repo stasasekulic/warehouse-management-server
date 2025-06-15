@@ -1,8 +1,8 @@
-package Product;
+package warehouse_management.Product;
 
-import Audit.AuditService;
-import ProductAuditLog.ProductAuditLog;
-import QRCode.QRCodeService;
+import warehouse_management.Audit.AuditService;
+import warehouse_management.ProductAuditLog.ProductAuditLog;
+import warehouse_management.QRCode.QRCodeService;
 import com.google.zxing.WriterException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
