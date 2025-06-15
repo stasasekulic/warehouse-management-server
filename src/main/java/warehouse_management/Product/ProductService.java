@@ -63,7 +63,11 @@ public class ProductService {
         Optional<Product> productOpt = productRepository.findById(id);
         if (productOpt.isPresent()) {
             Product product = productOpt.get();
+
+            // Loguj brisanje proizvoda
             auditService.logProductDeletion(product, userId);
+
+            // Obriši proizvod
             productRepository.deleteById(id);
         } else {
             throw new RuntimeException("Product not found with id: " + id);
